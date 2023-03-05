@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MyPokemonList</string>
+    <string name="about_name">Putu Suardana</string>
+    <string name="about_email">ptsuardana01@gmail.com</string>
+    <string name="about_desc">Hello guys, aku ingin memperkenalkan apk yang aku buat untuk menampilkan list pokemon yang aku sukai. Yukk klik tombol dibawah ini!</string>
+    <string name="btn_to_list">List Pokemonku</string>
+
+    <string name="pokemon_name">Nama Pokemon</string>
+    <string name="pokemon_types">Type</string>
+
+    <string-array name="poke_names">
+        <item>Pikacu</item>
+        <item>Bulbasaur</item>
+        <item>Pidgey</item>
+        <item>Ponyta</item>
+        <item>Gyarados</item>
+        <item>Chikorita</item>
+        <item>Totodile</item>
+        <item>Golem</item>
+        <item>Onix</item>
+        <item>Ditto</item>
+    </string-array>
+
+    <string-array name="poke_img">
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png</item>
+        <item>https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png</item>
+    </string-array>
+
+    <string-array name="poke_type">
+        <item>Electric</item>
+        <item>Grass, poison</item>
+        <item>Normal, flying</item>
+        <item>Fire</item>
+        <item>Water, flying</item>
+        <item>Grass</item>
+        <item>Water</item>
+        <item>Rock, ground</item>
+        <item>Rock, ground</item>
+        <item>Normal</item>
+    </string-array>
+
+
+</resources>
