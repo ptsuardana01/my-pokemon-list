@@ -1,15 +1,20 @@
 <resources>
     <string name="app_name">MyPokemonList</string>
     <string name="about_name">Putu Suardana</string>
-    <string name="about_email">ptsuardana01@gmail.com</string>
+    <string name="about_email">ptsuardana01@gmail.com\na308dsx2024@bangkit.academy</string>
     <string name="about_desc">Hello guys, aku ingin memperkenalkan apk yang aku buat untuk menampilkan list pokemon yang aku sukai. Yukk klik tombol dibawah ini!</string>
-    <string name="btn_to_list">List Pokemonku</string>
+    <string name="btn_to_list">Masuk ke Pokédex</string>
+    <string name="btn_back_to_list">Kembali ke Pokédex</string>
 
     <string name="pokemon_name">Nama Pokemon</string>
     <string name="pokemon_types">Type</string>
+    <string name="pokemon_weakness">Kelemahan</string>
+    <string name="pokemon_desc">Deskripsi</string>
+    <string name="pokemon_ability">Kemampuan</string>
+    <string name="pokemon_ability_desc">Detail Kemampuan</string>
 
     <string-array name="poke_names">
-        <item>Pikacu</item>
+        <item>Pikachu</item>
         <item>Bulbasaur</item>
         <item>Pidgey</item>
         <item>Ponyta</item>
@@ -47,5 +52,133 @@
         <item>Normal</item>
     </string-array>
 
+    <string-array name="poke_weakness">
+        <item>Tanah</item>
+        <item>Api, Es, Terbang, Psychic</item>
+        <item>Listrik, Es, Bebatuan</item>
+        <item>Air, Tahan, Bebatuan</item>
+        <item>Listrik, Bebatuan</item>
+        <item>Api, Es, Racun, Terbang, Serangga</item>
+        <item>Daun, Listrik</item>
+        <item>Air, Daun, Es, Petarung, Tanah, Logam</item>
+        <item>Air, Daun, Es, Petarung, Tanah, Logam</item>
+        <item>Tanah</item>
+    </string-array>
+
+    <string-array name="poke_desc">
+        <item>
+            Pikachu memiliki kantong penampung listrik di kedua pipinya.
+            Ketika marah, Pokémon ini mengeluarkan seluruh listrik yang telah terkumpul.
+            \nDikatakan jika beberapa Pikachu berkumpul, akan terkumpul listrik dahsyat dan petir akan menyambar di sana.
+            \nPikachu memiliki kantong untuk menumpuk listrik di pipinya. Pokémon ini menjadikan hutan rimba sebagai tempat tinggalnya
+            serta memiliki kecerdasan untuk membakar beri keras dengan listrik lalu memakannya.
+        </item>
+        <item>
+            Bulbasaur dapat ditemukan tidur siang di bawah sinar matahari.
+            Dengan mandi banyak sinar matahari, benih di punggungnya tumbuh makin besar.
+        </item>
+        <item>
+            Karena Pidgey memiliki kemampuan mengenal arah yang sangat unggul,
+            meskipun dari tempat yang terpisah sejauh apa pun,
+            Pokémon ini mampu pulang ke sarangnya tanpa tersesat.
+        </item>
+        <item>
+            Ponyta yang baru lahir tidak pandai berlari. Selagi main kejar-kejaran dengan temannya, kaki dan pinggangnya tumbuh semakin kuat.
+            \nJika diakui oleh Ponyta, maka meskipun menyentuh surai membara Pokémon ini, entah kenapa surainya tidak terasa panas.
+            \nPonyta hidup berkelompok di padang rumput. Anak yang baru lahir tidak memiliki surai api, dan baru akan tumbuh lengkap dalam waktu sekitar satu jam.
+        </item>
+        <item>
+            Gyarados langsung mengamuk begitu muncul. Dikabarkan amukan Pokémon ini tidak akan mereda hingga ia membumihanguskan sekitarnya.
+            \nJika terjadi banyak perselisihan di dunia, Gyarados akan muncul entah dari mana dan membumihanguskan sekitarnya.
+            \nAku menduga Gyarados adalah bentuk sebenarnya dari naga yang ada di naskah kuno. Tertulis bahwa Pokémon ini memuntahkan sinar panas dari mulutnya dan membakar habis seluruh permukiman.
+        </item>
+        <item>
+            Di dalam pertempuran, Chikorita melambai-lambaikan daunnya untuk menghalau lawan-lawannya. Tetapi, daun tersebut juga menghasilkan wangi yang semerbak,
+            yang dapat menenangkan Pokémon-Pokémon yang sedang bertempur dan menciptakan suasana yang tenang dan bersahabat.
+        </item>
+        <item>
+            Walaupun tubuhnya kecil, rahangnya sangat kuat. Meskipun Totodile hanya bermaksud menggigit pelan, kekuatan gigitannya dapat menyebabkan cedera serius.
+        </item>
+        <item>
+            Ketika Golem menjadi tua, mereka berhenti mengganti cangkangnya. Mereka yang telah hidup lama memiliki cangkang yang berwarna hijau ditumbuhi lumut.
+            \nGolem dapat meledakkan tubuhnya sendiri. Dengan kekuatan ledakan itu, Pokémon ini mendaki jalur pendakian yang terjal dengan kecepatan dahsyat.
+            \nCangkang Golem yang bagaikan batuan dasar berganti kulit setahun sekali. Cangkang batu yang lepas kembali menjadi bongkahan tanah dan jika ditebarkan ke ladang,
+            akan mendorong pertumbuhan tanaman.
+        </item>
+        <item>
+            Sambil menggali tanah, Onix menelan berbagai benda keras untuk membentuk tubuh yang keras dan padat.
+            \nOnix menggali lubang secara bersemangat pada kecepatan 80 km/jam dengan menggoyang dan meliukkan tubuhnya yang besar dan kuat.
+            \nOnix adalah rentetan batu besar yang berkelanjutan, membentuk penampilan bagaikan ular besar. Pokémon ini menguburkan diri jauh ke dalam tanah dan menimbulkan bunyi goncangan,
+            memakan batu besar sambil maju menggali terowongan.
+        </item>
+        <item>
+            Meskipun hasil transformasinya sempurna, Ditto akan kembali ke wujud aslinya jika dibuat tertawa dan menjadi rileks.
+            \nDitto mengubah struktur sel dalam tubuhnya dengan bebas dan berubah menjadi makhluk hidup lainnya.
+        </item>
+    </string-array>
+
+    <string-array name="poke_ability">
+        <item>Listrik Statis</item>
+        <item>Listrik</item>
+        <item>Mata Tajam, Sempoyongan</item>
+        <item>Api Merembet, Melarikan Diri</item>
+        <item>Intimidasi</item>
+        <item>Hijau Rindang</item>
+        <item>Arus Deras</item>
+        <item>Kepala Batu, Kokoh</item>
+        <item>Kepala Batu, Kokoh</item>
+        <item>Fleksibel</item>
+    </string-array>
+
+    <string-array name="poke_desc_ability">
+        <item>
+            ⚡ Listrik Statis
+            \nTubuh Pokémon menjadi mengandung listrik statis sehingga lawannya dapat menjadi lumpuh jika menyentuhnya.
+        </item>
+        <item>
+            🍀 Hijau
+            \nRindang Meningkatkan kekuatan jurus tipe Rumput waktu HP Pokémon rendah.
+        </item>
+        <item>
+            👁️ Mata Tajam
+            \nMata yang tajam mencegah Pokémon lain menurunkan akurasi serangan Pokémon ini.
+            \nSempoyongan 🦅
+            \nMeningkatkan kemampuan menghindar jika Pokémon sedang bingung.
+        </item>
+        <item>
+            🔥 Api Merembet
+            \nMemperkuat jurus Pokémon tipe Api jika terkena jurus tipe yang sama.
+            \nMelarikan Diri
+            \nPasti dapat kabur dari Pokémon liar.
+        </item>
+        <item>
+            ⚠ Intimidasi
+            \nPokémon mengintimidasi musuhnya saat memasuki pertarungan sehingga kemampuan serangannya melemah.
+        </item>
+        <item>
+            🌳 Hijau Rindang
+            \nMeningkatkan kekuatan jurus tipe Rumput waktu HP Pokémon rendah.
+        </item>
+        <item>
+            🌊 Arus Deras
+            \nMeningkatkan kekuatan jurus tipe Air waktu HP Pokémon rendah.
+        </item>
+        <item>
+            🪨 Kepala Batu
+            \nMelindungi Pokémon dari kerusakan akibat recoil.
+            \n🧱 Kokoh
+            \nPokémon ini tidak akan langsung gugur meski dengan 1 serangan. Jurus maut tunggal pun tidak akan menggugurkannya.
+        </item>
+        <item>
+            🪨 Kepala Batu
+            \nMelindungi Pokémon dari kerusakan akibat recoil.
+            \n🧱 Kokoh
+            \nPokémon ini tidak akan langsung gugur meski dengan 1 serangan. Jurus maut tunggal pun tidak akan menggugurkannya.
+        </item>
+        <item>
+            🦠 Fleksibel
+            \nTubuhnya yang lentur melindungi Pokémon dari kelumpuhan.
+        </item>
+    </string-array>
 
 </resources>

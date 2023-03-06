@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".ListPokemons">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_pokemon_ball"
+        android:alpha="0.1"
+        app:layout_constraintBottom_toBottomOf="@+id/rv_pokemons"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_pokemons"
         android:layout_width="0dp"

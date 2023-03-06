@@ -20,7 +20,7 @@ class ListPokemons : AppCompatActivity() {
         rvPokemons = findViewById(R.id.rv_pokemons)
         rvPokemons.setHasFixedSize(true)
 
-        list.addAll(getListHeroes())
+        list.addAll(getListPokemon())
         showRecyclerList()
     }
 
@@ -38,14 +38,18 @@ class ListPokemons : AppCompatActivity() {
         })
     }
 
-    private fun getListHeroes(): ArrayList<Pokemon> {
+    private fun getListPokemon(): ArrayList<Pokemon> {
         val names = resources.getStringArray(R.array.poke_names)
         val types = resources.getStringArray(R.array.poke_type)
         val imgs = resources.getStringArray(R.array.poke_img)
+        val desc = resources.getStringArray(R.array.poke_desc)
+        val weakness = resources.getStringArray(R.array.poke_weakness)
+        val ability = resources.getStringArray(R.array.poke_ability)
+        val abilityDesc = resources.getStringArray(R.array.poke_desc_ability)
         val listPokemons = ArrayList<Pokemon>()
 
         for (i in names.indices) {
-            val pokemon = Pokemon(names[i], types[i], imgs[i])
+            val pokemon = Pokemon(names[i], types[i], imgs[i], desc[i], weakness[i], ability[i], abilityDesc[i])
             listPokemons.add(pokemon)
         }
         return listPokemons
