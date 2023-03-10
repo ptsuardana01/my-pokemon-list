@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">MyPokemonList</string>
+    <string name="app_name">PsPokedéx</string>
     <string name="about_name">Putu Suardana</string>
     <string name="about_email">ptsuardana01@gmail.com\na308dsx2024@bangkit.academy</string>
-    <string name="about_desc">Hello guys, aku ingin memperkenalkan apk yang aku buat untuk menampilkan list pokemon yang aku sukai. Yukk klik tombol dibawah ini!</string>
+    <string name="about_desc">Hello guys, aku ingin memperkenalkan aplikasi PsPokédex yang aku buat untuk menampilkan list pokemon yang aku sukai. \nYukk klik tombol dibawah ini!</string>
     <string name="btn_to_list">Masuk ke Pokédex</string>
     <string name="btn_back_to_list">Kembali ke Pokédex</string>
+    <string name="action_share">Share</string>
 
     <string name="pokemon_name">Nama Pokemon</string>
     <string name="pokemon_types">Type</string>

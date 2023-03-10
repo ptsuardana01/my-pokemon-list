@@ -24,6 +24,7 @@ class DetailPokemon : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.includeBtnBack.btnBackToList.setOnClickListener(this)
+        binding.includeBtnBack.actionShare.setOnClickListener(this)
 
         val pokemon = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_DETAIL_POKEMON, Pokemon::class.java)
@@ -41,7 +42,7 @@ class DetailPokemon : AppCompatActivity(), View.OnClickListener {
             binding.includeDetailPokemonDesc.detailPokeDesc.text = pokemon.desc
             binding.includeDetailPokemonDesc.detailPokeAbilityDesc.text = pokemon.ability_desc
 
-            Log.d("Pokedata", "${pokemon.ability_desc} was clicked!")
+            Log.d("Pokedata", "${pokemon.name} was clicked!")
         }
     }
 
@@ -50,6 +51,14 @@ class DetailPokemon : AppCompatActivity(), View.OnClickListener {
             R.id.btn_back_to_list -> {
                 val intentBackToList = Intent(this@DetailPokemon, ListPokemons::class.java)
                 startActivity(intentBackToList)
+            }
+            R.id.action_share -> {
+                val intentShare: Intent = Intent().apply {
+                    action = Intent.ACTION_SEND
+                    putExtra(Intent.EXTRA_TEXT, "Cek pokemon kesuakaan mu di https://id.portal-pokemon.com/play/pokedex")
+                    type = "text/plain"
+                }
+                startActivity(intentShare)
             }
         }
     }

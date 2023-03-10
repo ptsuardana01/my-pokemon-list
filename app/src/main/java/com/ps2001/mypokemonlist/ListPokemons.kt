@@ -62,9 +62,9 @@ class ListPokemons : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.profile -> {
-                val profileIntent = Intent(this@ListPokemons, MainActivity::class.java)
-                startActivity(profileIntent)
+            R.id.about_page -> {
+                val aboutPageIntent = Intent(this@ListPokemons, MainActivity::class.java)
+                startActivity(aboutPageIntent)
             }
         }
         return super.onOptionsItemSelected(item)
